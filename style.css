@@ -1,0 +1,80 @@
+/* =============
+    Imports
+============= */
+@import "index.css";
+@import "book.css";
+@import "man-ray.css";
+@import "navigation.css";
+
+/* =============
+    Colors
+============= */
+:root {
+    --background-color: #FFFEFD;
+    --text-color: #0b001e;
+    --accent-color: #c03c3f;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+/* =============
+    Typography
+============= */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Xanh Mono", monospace;
+    line-height: 130%;
+    font-weight: 400;;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3{ 
+    font-size: 52px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h6,
+p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+
+    border: solid 1px var(--text-color);
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: rgb(255 254 253 / 40%);
+    
+    backdrop-filter: blur(4px);
+
+    transition: .25s;
+}
+
+.button:hover {
+    transition: .25s;
+    /* border: solid 1px var(--accent-color); */
+    font-weight: 600;
+    background-color: rgb(192 60 63 / 40%);
+}
+

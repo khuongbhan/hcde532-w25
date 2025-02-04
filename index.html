@@ -6,31 +6,53 @@
     <!-- Allows for responsive design later: explanation: https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag-->
     <title>Man Ray: Prophet of the Avant-Garde</title>
     <!-- Uncomment the following line to use the stylesheets defined in a file called style.css -->
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <header>
+    <header id="site-header">
+        <div id="logo-container">
+            <a href="index.html" id="logo">
+                <img src="img/site-logo.png" alt="a photo of an eye as the logo of the site">
+            </a>
+        </div>
+
+        <div id="nav-container">
+            <nav id="nav-bar">
+                <ul id="nav-menu-items">
+                    <li class="menu-item"><a href="index.html">01/ home</a></li>
+                    <li class="menu-item"><a href="man-ray.html">02/ man ray</a></li>
+                    <li class="menu-item"><a href="book.html">03/ the book</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
 
     <!-- Hero -->
-    <section id="index-hero">
+    <div id="index-hero">
         <img src="img/home/index-hero.png"
             alt="experimental typography with man ray's quote saying I have been accused of being a joker. But the most successful art to me involves humor.">
-    </section>
+    </div>
 
 
     <!-- The Book -->
     <section id="index-book">
         <div id="index-about-book">
             <div id="index-about-book-text">
-                <h4>About <em>Man Ray: Prophet of the Avant-Garde</em></h4>
+                <h6>About <em>Man Ray: Prophet of the Avant-Garde</em></h6>
                 <h2>Integrating experimental typography and imagery into Man Ray’s iconic rayographs</h2>
             </div>
             <div id="index-about-book-button">
-              <a href="book.html">explore the book</a>
+                <a href="book.html" class="button">explore the book</a>
             </div>
         </div>
 
@@ -44,11 +66,11 @@
 
 
     <!-- Banner -->
-    <section id="index-banner" class="banner-image">
+    <div id="index-banner" class="banner-image">
 
         <img src="img/home/index-banner.png" alt="front cover">
 
-    </section>
+    </div>
 
 
 
@@ -56,12 +78,12 @@
     <section id="index-ray">
         <div id="index-about-ray">
             <div id="index-about-ray-text">
-                <h4>A Significant Contributor to the Dada and Surrealist Movements</h4>
-                <h2>“No one was more influential in translating the vogue for African art into a Modernist photographic
-                    aesthetic than Man Ray.”</h2>
+                <h6>A Significant Contributor to the Dada and Surrealist Movements</h6>
+                <h3>“No one was more influential in translating the vogue for African art into a Modernist photographic
+                    aesthetic than Man Ray.”</h3>
             </div>
             <div id="index-about-ray-button">
-                <a href="man-ray.html">more about man ray</a>
+                <a href="man-ray.html" class="button">more about man ray</a>
             </div>
         </div>
 
@@ -78,13 +100,13 @@
         <div id="index-gallery-left">
 
             <div id="index-gallery-text">
-                <h4>Gallery</h4>
-                <h3>Discover the Visionary World of Man Ray</h3>
+                <h6>Gallery</h6>
+                <h4>Discover the Visionary World of Man Ray</h4>
             </div>
 
             <div id="index-gallery-button">
-                <a href="gallery.html">view more works</a>
-            
+                <a href="man-ray.html" class="button">view more works</a>
+
             </div>
         </div>
 

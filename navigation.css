@@ -1,0 +1,38 @@
+#site-header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+
+    position: fixed;
+    z-index: 10;
+}
+
+#nav-menu-items {
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    border: solid 1px var(--text-color);
+    padding: 15px 80px;
+    border-radius: 50px;
+    background-color: rgb(255 254 253 / 40%);    
+    backdrop-filter: blur(4px);
+
+    list-style: none;
+}
+
+.menu-item a {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+
+    transition: .25s;
+}
+
+.menu-item a:hover {
+    transition: .25s;
+    color: var(--accent-color);
+}

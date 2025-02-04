@@ -1,0 +1,9 @@
+#index-hero {
+    display: flex;
+    align-content: center;
+}
+
+#index-hero img {
+    height: 100vh;
+    width: 100vw;
+}
