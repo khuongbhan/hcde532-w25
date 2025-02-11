@@ -1,9 +1,52 @@
-#index-hero {
+/* #index-hero {
     display: flex;
     align-content: center;
+} */
+
+#index-hero {
+    height: 100vh;
+    background-image: url('img/home/index-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-#index-hero img {
-    height: 100vh;
-    width: 100vw;
+
+#index-book #index-about-book {
+    display: grid;
+    grid-template-columns: 80% 20%; 
+    grid-template-areas: "text button";
+    padding-bottom: 40px;
+}
+
+#index-book #index-about-book #index-about-book-text {
+    grid-area: text;
+}
+
+#index-book #index-about-book #index-about-book-button {
+    grid-area: button;
+}
+
+#index-about-ray {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#index-about-ray-text h3 {
+    padding-bottom: 40px;
+}
+
+#index-ray-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#index-gallery-text h4 {
+    padding-bottom: 20px;
+}
+
+#index-gallery-button {
+    padding-bottom: 40px;
 }

@@ -67,6 +67,7 @@ body {
 .banner-image .banner-content img {
     height: 80vh;
     width: 100%;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -83,6 +84,7 @@ body {
 }
 .column-2-flex img {
     height: 400px;
+    -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
     border: solid 1px var(--text-color);
@@ -160,6 +162,8 @@ a:hover {
     padding: 15px 40px;
     border-radius: 30px;
     background-color: rgb(255 254 253 / 40%);
+
+    -webkit-backdrop-filter: blur(4px);
 
     backdrop-filter: blur(4px);
 
