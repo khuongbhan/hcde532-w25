@@ -1,3 +1,5 @@
 # hcde532-w2025
 
-added header, footer, and global css
+changes:
+1. gallery section in home page is no longer a parallax horizontal scroll
+2. 

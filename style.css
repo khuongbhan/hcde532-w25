@@ -16,19 +16,19 @@
     --text-color: #0b001e;
     --accent-color: #c03c3f;
 
-    /* width: 100vw; */
-    /* display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    overflow-x: hidden;
-    justify-content: center; */
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: var(--background-color);
     color: var(--text-color);
 
-    
+
 }
 
 /* =============
@@ -49,8 +49,8 @@ body {
 }
 
 .content-spacing {
-        padding: 80px 0 0;
-    
+    padding: 80px 0 0;
+
 }
 
 /* banner */
@@ -72,7 +72,7 @@ body {
 
 /* 2 column flex  */
 .column-2-flex {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -81,6 +81,7 @@ body {
 .column-2-flex div {
     flex-basis: 49%;
 }
+
 .column-2-flex img {
     height: 400px;
     object-fit: cover;
@@ -91,11 +92,26 @@ body {
 
 /* cards */
 .gallery-cards-meta {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+/* 1 image section */
+.section-with-1-image div {
+    display: grid;
+    grid-template-columns: "auto 95% auto";
+    grid-template-areas: ". banner .";
+
+}
+
+.section-with-1-image div img {
+    grid-area: banner;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: solid 1px var(--text-color);
+}
 
 /* =============
     Typography
@@ -109,7 +125,7 @@ h5 {
     font-family: "Xanh Mono", monospace;
     line-height: 130%;
     font-weight: 400;
-    margin:0;
+    margin: 0;
 }
 
 h2 {

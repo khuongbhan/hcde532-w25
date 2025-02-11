@@ -1,4 +1,5 @@
 #site-header {
+    /* padding-top: 20px; */
     justify-content: center;
     justify-items: center;
 }
@@ -8,8 +9,8 @@
     width: 1200px;
     justify-content: space-between;
 
-
     position: fixed;
+    top: 20px;
     z-index: 10;
 }
 

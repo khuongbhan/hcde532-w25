@@ -12,129 +12,148 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Xanh+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
 
-    <header id="site-header">
-        <div id="logo-container">
-            <a href="index.html" id="logo">
-                <img src="img/site-logo.png" alt="a photo of an eye as the logo of the site">
-            </a>
+    <header id="site-header" class="grid-container">
+        <div id="site-header-content" class="content">
+            <div id="logo-container">
+                <a href="index.html" id="logo">
+                    <img src="img/site-logo.png" alt="a photo of an eye as the logo of the site">
+                </a>
+            </div>
+
+            <div id="nav-container">
+                <nav id="nav-bar">
+                    <ul id="nav-menu-items">
+                        <li class="menu-item"><a href="index.html">01/ home</a></li>
+                        <li class="menu-item"><a href="man-ray.html">02/ man ray</a></li>
+                        <li class="menu-item"><a href="book.html">03/ the book</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
-        <div id="nav-container">
-            <nav id="nav-bar">
-                <ul id="nav-menu-items">
-                    <li class="menu-item"><a href="index.html">01/ home</a></li>
-                    <li class="menu-item"><a href="man-ray.html">02/ man ray</a></li>
-                    <li class="menu-item"><a href="book.html">03/ the book</a></li>
-                </ul>
-            </nav>
-        </div>
 
     </header>
 
     <!-- Hero -->
-    <div id="book-hero">
-        <img src="img/book/book-hero.png" alt="one spread of the man ray book">
+    <div id="book-hero" class="content-spacing">
+        <div></div>
+        <!-- <img src="img/book/book-hero.png" alt="one spread of the man ray book"> -->
     </div>
 
 
     <!-- Book Overview -->
-    <section id="book-overview">
-        <h6>An essential piece in your collection of coffee table books</h6>
-        <h2>“Man Ray: Prophet of the Avant-garde” is a catalogue on Ray’s works as an artist, and his influence on the
-            Dada and Surrealist art movements.</h2>
+    <section id="book-overview" class="grid-container content-spacing">
+        <div class="content">
+            <h6>An essential piece in your collection of coffee table books</h6>
+            <h2>“Man Ray: Prophet of the Avant-garde” is a catalogue on Ray’s works as an artist, and his influence on
+                the
+                Dada and Surrealist art movements.</h2>
+        </div>
+
 
     </section>
 
 
 
     <!-- Banner -->
-    <div id="book-banner" class="banner-image">
-        <img src="img/book/book-banner.png" alt="a photo of the man ray book">
+    <div id="book-banner" class="section-with-1-image grid-container content-spacing">
+        <div class="content">
+            <img src="img/book/book-banner.png" alt="a photo of the man ray book">
+        </div>
+
     </div>
 
 
 
     <!-- Experimental Typography -->
-    <section id="book-type">
-        <div id="book-type-top">
+    <section id="book-type" class="grid-container content-spacing">
+        <div class="content">
+            <div id="book-type-top">
 
-            <div id="book-type-exploration-1">
-                <img src="img/book/book-type-1.png" alt="experimental typography of the name Man Ray">
+                <div id="book-type-exploration-1">
+                    <img src="img/book/book-type-1.png" alt="experimental typography of the name Man Ray">
+                </div>
+
+                <div id="book-type-text">
+                    <h5>Typographic Explorations</h5>
+                    <p>Central to the catalogue is the use of experimental typography, serving as a key visual element
+                        to
+                        engage
+                        readers and reflect Ray's avant-garde style.
+                    </p>
+                </div>
+
             </div>
 
-            <div id="book-type-text">
-                <h5>Typographic Explorations</h5>
-                <p>Central to the catalogue is the use of experimental typography, serving as a key visual element to
-                    engage
-                    readers and reflect Ray's avant-garde style.
-                </p>
+            <div id="book-type-gallery" class="column-2-flex">
+                <div class="gallery-2col-item">
+                    <img src="img/book/book-type-2.png" alt="experimental typography of the word Paris">
+                </div>
+
+                <div class="gallery-2col-item">
+                    <img src="img/book/book-type-3.png" alt="experimental typography of the word New York">
+                </div>
             </div>
 
+            <div id="book-type-banner" class="section-with-1-image">
+                <div>
+                    <img src="img/book/book-type-4.png"
+                        alt="experimental typographic exploration of the quote about man ray">
+                </div>
+            </div>
         </div>
-
-        <div id="book-type-gallery" class="image-gallery-2-col">
-            <div class="gallery-2col-item">
-                <img src="img/book/book-type-2.png" alt="experimental typography of the word Paris">
-            </div>
-
-            <div class="gallery-2col-item">
-                <img src="img/book/book-type-3.png" alt="experimental typography of the word New York">
-            </div>
-        </div>
-
-        <div id="book-type-banner" class="banner-image">
-            <img src="img/book/book-type-4.png" alt="experimental typographic exploration of the quote about man ray">
-        </div>
-
 
     </section>
 
 
     <!-- Book Spreads -->
-    <section id="book-spreads">
-        <div id="book-spreads-copy">
+    <section id="book-spreads" class="grid-container content-spacing">
+        <div class="content">
+            <div id="book-spreads-copy">
 
-            <h6>Some spreads from the book</h6>
-            <h3>The 12x12" book was meticulously designed and assembled by hand, employing the Japanese stab-binding
-                technique.</h3>
+                <h6>Some spreads from the book</h6>
+                <h3>The 12x12" book was meticulously designed and assembled by hand, employing the Japanese stab-binding
+                    technique.</h3>
 
-        </div>
-
-        <div id="book-spreads-gallery-1" class="image-gallery-2-col">
-            <div class="gallery-2col-item">
-                <img src="img/book/book-spreads-1.png" alt="2 spreads from the man ray book">
             </div>
 
-            <div class="gallery-2col-item">
-                <img src="img/book/book-spreads-2.png" alt="2 spreads from the man ray book">
+            <div id="book-spreads-gallery" class="column-2-flex">
+                <div class="gallery-2col-item">
+                    <img src="img/book/book-spreads-1.png" alt="2 spreads from the man ray book">
+                </div>
+
+                <div class="gallery-2col-item">
+                    <img src="img/book/book-spreads-2.png" alt="2 spreads from the man ray book">
+                </div>
+
+                <div class="gallery-2col-item">
+                    <img src="img/book/book-spreads-3.png" alt="2 spreads from the man ray book">
+                </div>
+
+                <div class="gallery-2col-item">
+                    <img src="img/book/book-spreads-4.png" alt="2 spreads from the man ray book">
+                </div>
+            </div>
+
+            <div id="book-spreads-final" class="section-with-1-image">
+                <div>
+                    <img src="img/book/book-spreads-5.png" alt="a spread from the man ray book">
+                </div>
             </div>
         </div>
-
-        <div id="book-spreads-gallery-2" class="image-gallery-2-col">
-            <div class="gallery-2col-item">
-                <img src="img/book/book-spreads-3.png" alt="2 spreads from the man ray book">
-            </div>
-
-            <div class="gallery-2col-item">
-                <img src="img/book/book-spreads-4.png" alt="2 spreads from the man ray book">
-            </div>
-        </div>
-
-        <div id="book-spreads-final" class="banner-image">
-            <img src="img/book/book-spreads-5.png" alt="a spread from the man ray book">
-        </div>
-
     </section>
 
 
-    <footer id="site-footer">
-        <div id="footer-container">
+    <footer id="site-footer" class="grid-container content-spacing">
+        <div id="footer-container" class="content">
             <div id="footer-website">
                 <a href="https://www.manray.net/">manray.net</a>
             </div>
@@ -145,9 +164,12 @@
 
             <div id="footer-links">
                 <ul>
-                    <li class="footer-item"><a href="https://www.tate.org.uk/art/artists/man-ray-1563" target="_blank">tate</a></li>
-                    <li class="footer-item"><a href="https://www.moma.org/artists/3716-man-ray-emmanuel-radnitzky" target="_blank">moma</a></li>
-                    <li class="footer-item"><a href="https://www.wikiart.org/en/man-ray" target="_blank">wikiart</a></li>
+                    <li class="footer-item"><a href="https://www.tate.org.uk/art/artists/man-ray-1563"
+                            target="_blank">tate</a></li>
+                    <li class="footer-item"><a href="https://www.moma.org/artists/3716-man-ray-emmanuel-radnitzky"
+                            target="_blank">moma</a></li>
+                    <li class="footer-item"><a href="https://www.wikiart.org/en/man-ray" target="_blank">wikiart</a>
+                    </li>
                 </ul>
             </div>
         </div>
