@@ -35,6 +35,11 @@
     padding-bottom: 20px;
 }
 
+#book-spreads-copy {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
 #book-spreads-gallery {
     gap: 20px;
     padding-bottom: 20px;

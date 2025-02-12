@@ -1,3 +1,43 @@
-/* p {
-    color: purple;
-} */
+#ray-hero {
+    height: 100vh;
+    background-image: url('img/ray/ray-hero.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#ray-banner img {
+    width: 1200px;
+}
+
+#ray-bio-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    /* flex-basis: 49%; */
+}
+
+#ray-bio-content div {
+    flex-basis: 49%;
+}
+
+#ray-bio-img img {
+    height: 70vh;
+    object-fit: cover;
+    width: 100%;
+    border: solid 1px var(--text-color);
+}
+
+#ray-bio-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 80px;
+}
+
+#ray-quote-copy {
+    text-align: center; 
+    padding-bottom: 40px;
+}

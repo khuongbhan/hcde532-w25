@@ -100,7 +100,7 @@ body {
 /* 1 image section */
 .section-with-1-image div {
     display: grid;
-    grid-template-columns: "auto 95% auto";
+    /* grid-template-columns: auto 95% auto; */
     grid-template-areas: ". banner .";
 
 }
@@ -112,6 +112,32 @@ body {
     object-fit: cover;
     border: solid 1px var(--text-color);
 }
+
+/* 3 image section  */
+.image-gallery-3-col {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    column-gap: 20px;
+    row-gap: 50px;
+}
+
+.image-gallery-3-col .gallery-3col-item {
+    flex-basis: 32%;
+}
+
+.image-gallery-3-col img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: solid 1px var(--text-color);
+}
+
+.gallery-3-caption {
+    display: flex; 
+    justify-content: space-between;
+}
+
 
 /* =============
     Typography

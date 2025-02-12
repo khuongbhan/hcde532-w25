@@ -6,77 +6,87 @@
     <!-- Allows for responsive design later: explanation: https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag-->
     <title>About Man Ray</title>
     <!-- Uncomment the following line to use the stylesheets defined in a file called style.css -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 
     <!-- Import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Xanh+Mono:ital@0;1&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
 
-    <header id="site-header">
-        <div id="logo-container">
-            <a href="index.html" id="logo">
-                <img src="img/site-logo.png" alt="a photo of an eye as the logo of the site">
-            </a>
-        </div>
+    <header id="site-header" class="grid-container">
+        <div id="site-header-content" class="content">
+            <div id="logo-container">
+                <a href="index.html" id="logo">
+                    <img src="img/site-logo.png" alt="a photo of an eye as the logo of the site">
+                </a>
+            </div>
 
-        <div id="nav-container">
-            <nav id="nav-bar">
-                <ul id="nav-menu-items">
-                    <li class="menu-item"><a href="index.html">01/ home</a></li>
-                    <li class="menu-item"><a href="man-ray.html">02/ man ray</a></li>
-                    <li class="menu-item"><a href="book.html">03/ the book</a></li>
-                </ul>
-            </nav>
+            <div id="nav-container">
+                <nav id="nav-bar">
+                    <ul id="nav-menu-items">
+                        <li class="menu-item"><a href="index.html">01/ home</a></li>
+                        <li class="menu-item"><a href="man-ray.html">02/ man ray</a></li>
+                        <li class="menu-item"><a href="book.html">03/ the book</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
     </header>
 
     <!-- Hero -->
-    <div id="ray-hero">
-        <img src="img/ray/ray-hero.jpeg" alt="man rays artwork with eyes and tears">
+    <div id="ray-hero" class="content-spacing">
+        <div>
+            <!-- <img src="img/ray/ray-hero.jpeg" alt="man rays artwork with eyes and tears"> -->
+        </div>
     </div>
 
 
     <!-- Overview -->
-    <section id="ray-overview">
-        <h6>Man Ray played a major role in Dada and Surrealist movements in America as well as in Europe</h6>
-        <h2>Man Ray was responsible for several technical innovations in modern art, filmmaking, and photography.</h2>
-
+    <section id="ray-overview" class="grid-container content-spacing">
+        <div class="content">
+            <h6>Man Ray played a major role in Dada and Surrealist movements in America as well as in Europe</h6>
+            <h2>Man Ray was responsible for several technical innovations in modern art, filmmaking, and photography.
+            </h2>
+        </div>
     </section>
 
     <!-- Banner -->
-    <div id="ray-banner" class="banner-image">
-
-        <img src="img/ray/ray-banner.jpg" alt="man rays artwork the kiss">
-
+    <div id="ray-banner" class="section-with-1-image grid-container content-spacing">
+        <div class="content">
+            <img src="img/ray/ray-banner.jpg" alt="man rays artwork the kiss">
+        </div>
     </div>
 
 
 
     <!-- Short Biography -->
-    <section id="ray-bio">
+    <section id="ray-bio" class="grid-container content-spacing">
+        <div id="ray-bio-content" class="content">
+            <div id="ray-bio-img">
+                <img src="img/ray/ray-bio.jpg" alt="rays artwork rayography">
+            </div>
 
-        <div id="ray-bio-img">
-            <img src="img/ray/ray-bio.jpg" alt="rays artwork rayography">
-        </div>
-
-        <div id="ray-bio-text">
-            <h5>Man Ray</h5>
-            <p>Man Ray (born Emmanuel Radnitzky; August 27, 1890 – November 18, 1976) was an American visual artist who
-                spent most of his career in Paris. He was a significant contributor to the Dada and Surrealist
-                movements, although his ties to each were informal.
-            </p>
-            <p>
-                He was best known for his pioneering photography, and he was a renowned fashion and portrait
-                photographer. Man Ray is also noted for his work with photograms, which he called "rayographs" in
-                reference to himself.
-            </p>
+            <div id="ray-bio-text">
+                <h5>Man Ray</h5>
+                <p>Man Ray (born Emmanuel Radnitzky; August 27, 1890 – November 18, 1976) was an American visual artist
+                    who
+                    spent most of his career in Paris. He was a significant contributor to the Dada and Surrealist
+                    movements, although his ties to each were informal.
+                </p>
+                <p>
+                    He was best known for his pioneering photography, and he was a renowned fashion and portrait
+                    photographer. Man Ray is also noted for his work with photograms, which he called "rayographs" in
+                    reference to himself.
+                </p>
+            </div>
         </div>
 
 
@@ -84,45 +94,70 @@
 
 
     <!-- Book Spreads -->
-    <section id="ray-quote">
+    <section id="ray-quote" class="grid-container content-spacing">
+        <div class="content">
+            <div id="ray-quote-copy">
+                <h3>“I have been accused of being a joker. But the most successful art to me involves humor.” — Man Ray
+                </h3>
 
-        <div id="ray-quote-copy">
-            <h3>“I have been accused of being a joker. But the most successful art to me involves humor.” — Man Ray</h3>
-
-        </div>
-
-        <div id="ray-gallery-1" class="image-gallery-3-col">
-            <div class="gallery-3col-item">
-                <img src="img/ray/ray-gallery-1.jpg" alt="rays artwork">
             </div>
 
-            <div class="gallery-3col-item">
-                <img src="img/ray/ray-gallery-2.jpeg" alt="rays artwork">
-            </div>
+            <div id="ray-gallery-1" class="image-gallery-3-col">
+                <div class="gallery-3col-item">
+                    <img src="img/ray/ray-gallery-1.jpg" alt="rays artwork">
+                    <div class="gallery-3-caption">
+                        <p>Le Violon d'Ingres</p>
+                        <p>1924</p>
+                    </div>
+                </div>
 
-            <div class="gallery-3col-item">
-                <img src="img/ray/ray-gallery-3.jpg" alt="rays artwork">
-            </div>
-        </div>
+                <div class="gallery-3col-item">
+                    <img src="img/ray/ray-gallery-2.jpeg" alt="rays artwork">
+                    <div class="gallery-3-caption">
+                        <p>Untitled Rayograph</p>
+                        <p>1922</p>
+                    </div>
+                </div>
 
-        <div id="ray-gallery-2" class="image-gallery-3-col">
-            <div class="gallery-3col-item">
-                <img src="img/ray/ray-gallery-4.jpg" alt="rays artwork">
-            </div>
+                <div class="gallery-3col-item">
+                    <img src="img/ray/ray-gallery-3.jpg" alt="rays artwork">
+                    <div class="gallery-3-caption">
+                        <p>Objet à detruire</p>
+                        <p>1923-1930</p>
+                    </div>
+                </div>
 
-            <div class="gallery-3col-item">
-                <img src="img/ray/ray-gallery-5.jpg" alt="rays artwork">
-            </div>
 
-            <div class="gallery-3col-item">
-                <img src="img/ray/ray-gallery-6.jpg" alt="rays artwork">
+                <div class="gallery-3col-item">
+                    <img src="img/ray/ray-gallery-4.jpg" alt="rays artwork">
+                    <div class="gallery-3-caption">
+                        <p>Untitled Rayograph</p>
+                        <p>1924</p>
+                    </div>
+                </div>
+
+                <div class="gallery-3col-item">
+                    <img src="img/ray/ray-gallery-5.jpg" alt="rays artwork">
+                    <div class="gallery-3-caption">
+                        <p>Erotique voilée</p>
+                        <p>1933</p>
+                    </div>
+                </div>
+
+                <div class="gallery-3col-item">
+                    <img src="img/ray/ray-gallery-6.jpg" alt="rays artwork">
+                    <div class="gallery-3-caption">
+                        <p>La Prière</p>
+                        <p>1930</p>
+                    </div>
+                </div>
             </div>
         </div>
 
     </section>
 
-    <footer id="site-footer">
-        <div id="footer-container">
+    <footer id="site-footer" class="grid-container content-spacing">
+        <div id="footer-container" class="content">
             <div id="footer-website">
                 <a href="https://www.manray.net/">manray.net</a>
             </div>
@@ -133,9 +168,12 @@
 
             <div id="footer-links">
                 <ul>
-                    <li class="footer-item"><a href="https://www.tate.org.uk/art/artists/man-ray-1563" target="_blank">tate</a></li>
-                    <li class="footer-item"><a href="https://www.moma.org/artists/3716-man-ray-emmanuel-radnitzky" target="_blank">moma</a></li>
-                    <li class="footer-item"><a href="https://www.wikiart.org/en/man-ray" target="_blank">wikiart</a></li>
+                    <li class="footer-item"><a href="https://www.tate.org.uk/art/artists/man-ray-1563"
+                            target="_blank">tate</a></li>
+                    <li class="footer-item"><a href="https://www.moma.org/artists/3716-man-ray-emmanuel-radnitzky"
+                            target="_blank">moma</a></li>
+                    <li class="footer-item"><a href="https://www.wikiart.org/en/man-ray" target="_blank">wikiart</a>
+                    </li>
                 </ul>
             </div>
         </div>
