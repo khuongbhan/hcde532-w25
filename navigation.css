@@ -49,20 +49,40 @@
 }
 
 /* =============
+    Tablet
+============= */
+
+@media (max-width: 1200px) {
+    #logo-container {
+        padding: 0 0 0 10%;
+    }
+
+    #nav-container {
+        padding: 0 10% 0 0;
+    }
+}
+
+/* =============
     Mobile
 ============= */
 
 @media (max-width: 810px) {
+    #site-header {
+        display: grid;
+        grid-template-columns: 10px auto 10px;
+        grid-template-areas: ". container .";
+    }
     #site-header-content {
+        grid-area: container;
         display: grid;
         grid-template-areas: "logo burger"
-            /* "nav nav" */
             "nav nav";
         grid-template-columns: 80% auto;
     }
 
     #logo-container {
         grid-area: logo;
+        padding: 0 0 0 10px;
     }
 
     #burger-container {
@@ -70,7 +90,15 @@
         display: flex !important;
         align-items: center;
         justify-content: flex-end;
-        padding: 20px;
+        padding: 0 10px 0 0;
+    }
+
+    #burger-icon {
+        border: solid 1px var(--text-color);
+        padding: 10px;
+        border-radius: 50px;
+        background-color: rgb(255 254 253 / 40%);
+        backdrop-filter: blur(4px);
     }
 
     #burger-container .container {
@@ -86,37 +114,40 @@
         height: 2px;
         background-color: var(--text-color);
         margin: 6px 0;
-        transition: 0.4;
+        transition: 0.4s;
     }
 
     .change .bar1 {
         -webkit-transform: rotate(-45deg) translate(-4px, 3px);
         transform: rotate(-45deg) translate(-4px, 3px);
+        transition: 0.4s;
     }
 
     .change .bar2 {
         opacity: 0;
+        transition: 0.4s;
     }
 
     .change .bar3 {
         -webkit-transform: rotate(45deg) translate(-8px, -8px);
         transform: rotate(45deg) translate(-8px, -8px);
+        transition: 0.4s;
     }
 
     #nav-container {
         grid-area: nav;
         display: none;
-        padding: 20px;
+        padding: 0 10px;
     }
 
     #nav-container ul {
-        height: 100%;
-        text-align: right;
+        /* height: 100%; */
+        text-align: center;
+    }
+
+    #nav-menu-items {
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 20px;
     }
 }
-
-/* =============
-    Tablet
-============= */
-
-@media (max-width: 1200px) {}
