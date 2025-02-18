@@ -41,3 +41,38 @@
     text-align: center; 
     padding-bottom: 40px;
 }
+
+/* =============
+    Tablet
+============= */
+@media (max-width: 1200px) {
+    #ray-bio-content {
+        flex-direction: row;
+        /* flex-basis: 49%; */
+    }
+    
+    #ray-bio-content div {
+        flex-basis: 49%;
+    }
+
+    #ray-bio-text {
+        padding: 20px 20px 20px 40px;
+    }
+}
+
+/* =============
+    Mobile
+============= */
+@media (max-width: 810px) {
+    #ray-hero {
+        height: 70vh;
+    }
+
+    #ray-bio-content {
+        flex-direction: column-reverse;
+    }
+
+    #ray-bio-text {
+        padding: 0 0 30px 0;
+    }
+}
