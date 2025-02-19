@@ -65,7 +65,8 @@
 ============= */
 @media (max-width: 810px) {
     #ray-hero {
-        height: 70vh;
+        height: 100vh;
+        background-position: right;
     }
 
     #ray-bio-content {

@@ -10,7 +10,6 @@
 
     <!-- jQuery for Burger  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/scripts-min.js"></script>
 
     <!-- Import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,15 +31,24 @@
                 </a>
             </div>
 
-            <div id="nav-container">
-                <nav id="nav-bar">
+            <div id="burger-container">
+                <!-- <i class="fas fa-bars" id="burger-icon" onclick="myFunction(this)"></i> -->
+                <div id="burger-icon" class="container">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+            <!-- <div id="nav-container"> -->
+                <nav id="nav-container" data-nav="main-navigation">
                     <ul id="nav-menu-items">
                         <li class="menu-item"><a href="index.html">01/ home</a></li>
                         <li class="menu-item"><a href="man-ray.html">02/ man ray</a></li>
                         <li class="menu-item"><a href="book.html">03/ the book</a></li>
                     </ul>
                 </nav>
-            </div>
+            <!-- </div> -->
         </div>
 
     </header>
@@ -187,6 +195,8 @@
         </div>
     </footer>
 
+    <script src="scripts-min.js"></script>
+    
 </body>
 
 </html>

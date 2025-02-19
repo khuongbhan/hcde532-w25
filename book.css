@@ -48,3 +48,40 @@
 #book-spreads-gallery img {
     height: 100%;
 }
+
+/* =============
+    Tablet
+============= */
+@media (max-width: 1200px) {
+    #book-spreads-gallery {
+        flex-direction: column;
+        /* gap: 10px; */
+    }
+
+    #book-spreads-gallery img {
+        height: 100%;
+    }
+}
+
+/* =============
+    Mobile
+============= */
+
+@media (max-width: 810px) {
+    #book-hero {
+        background-position: left;
+    }
+
+    #book-type-top {
+        flex-direction: column-reverse;
+    }
+
+    #book-type-text {
+        padding-bottom: 20px;
+    }
+
+    #book-spreads-gallery {
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+}

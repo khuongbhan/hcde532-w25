@@ -12,3 +12,26 @@
 #footer-links ul {
     margin: 0;
 }
+
+
+/* =============
+    Tablet
+============= */
+@media (max-width: 1200px) {
+    /* #footer-container {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    } */
+}
+
+/* =============
+    Mobile
+============= */
+@media (max-width: 810px) {
+    #footer-container {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
