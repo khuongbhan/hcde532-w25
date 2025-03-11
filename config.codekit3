@@ -41,6 +41,16 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/img\/arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/book\/book-banner.png" : {
       "ft" : 32768,
       "iS" : 1575580,
@@ -475,6 +485,17 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/scripts.js" : {
       "bF" : 0,

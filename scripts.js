@@ -7,7 +7,7 @@ var isVisible = false;
 function myFunction(y, x) {
     y.classList.toggle("change");
 
-    console.log("concu");
+    console.log("slay");
     if (isVisible === false) {
         // $nav.show();
         x.style.display = "block"

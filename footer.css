@@ -11,6 +11,16 @@
 
 #footer-links ul {
     margin: 0;
+    padding-bottom: 20px;
+}
+
+#back-to-top img {
+    border: solid 1px var(--text-color);
+        padding: 10px;
+        border-radius: 50px;
+        background-color: rgb(255 254 253 / 40%);
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
 }
 
 

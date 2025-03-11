@@ -41,6 +41,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border: solid 1px var(--text-color);
 }
 
 #index-gallery-text h4 {
@@ -49,4 +50,25 @@
 
 #index-gallery-button {
     padding-bottom: 40px;
+}
+
+
+/* =============
+    Tablet
+============= */
+@media (max-width: 1200px) {
+    #index-book #index-about-book {
+        display: flex; 
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+/* =============
+    Mobile
+============= */
+@media (max-width: 810px) {
+    #index-gallery-text h4 {
+        padding-bottom: 30px;
+    }
 }
