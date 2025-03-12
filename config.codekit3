@@ -53,7 +53,7 @@
     },
     "\/img\/book\/book-banner.png" : {
       "ft" : 32768,
-      "iS" : 1575580,
+      "iS" : 641982,
       "oA" : 0,
       "oAP" : "\/img\/book\/book-banner.png",
       "oF" : 0,
@@ -66,7 +66,7 @@
     },
     "\/img\/book\/book-hero.png" : {
       "ft" : 32768,
-      "iS" : 4897705,
+      "iS" : 1911508,
       "oA" : 0,
       "oAP" : "\/img\/book\/book-hero.png",
       "oF" : 0,
@@ -79,7 +79,7 @@
     },
     "\/img\/book\/book-spreads-1.png" : {
       "ft" : 32768,
-      "iS" : 7712276,
+      "iS" : 6623275,
       "oA" : 0,
       "oAP" : "\/img\/book\/book-spreads-1.png",
       "oF" : 0,
@@ -92,7 +92,7 @@
     },
     "\/img\/book\/book-spreads-2.png" : {
       "ft" : 32768,
-      "iS" : 19196812,
+      "iS" : 13551446,
       "oA" : 0,
       "oAP" : "\/img\/book\/book-spreads-2.png",
       "oF" : 0,
@@ -105,7 +105,7 @@
     },
     "\/img\/book\/book-spreads-3.png" : {
       "ft" : 32768,
-      "iS" : 6001232,
+      "iS" : 5747531,
       "oA" : 0,
       "oAP" : "\/img\/book\/book-spreads-3.png",
       "oF" : 0,
@@ -118,7 +118,7 @@
     },
     "\/img\/book\/book-spreads-4.png" : {
       "ft" : 32768,
-      "iS" : 7373060,
+      "iS" : 7089174,
       "oA" : 0,
       "oAP" : "\/img\/book\/book-spreads-4.png",
       "oF" : 0,
@@ -131,7 +131,7 @@
     },
     "\/img\/book\/book-spreads-5.png" : {
       "ft" : 32768,
-      "iS" : 12124023,
+      "iS" : 11260642,
       "oA" : 0,
       "oAP" : "\/img\/book\/book-spreads-5.png",
       "oF" : 0,
@@ -196,7 +196,7 @@
     },
     "\/img\/home\/bnw.jpg" : {
       "ft" : 16384,
-      "iS" : 155474,
+      "iS" : 114975,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/home\/bnw.jpg",
@@ -209,7 +209,7 @@
     },
     "\/img\/home\/cover-back.png" : {
       "ft" : 32768,
-      "iS" : 3973235,
+      "iS" : 1657745,
       "oA" : 0,
       "oAP" : "\/img\/home\/cover-back.png",
       "oF" : 0,
@@ -222,7 +222,7 @@
     },
     "\/img\/home\/cover-front.png" : {
       "ft" : 32768,
-      "iS" : 4109984,
+      "iS" : 1802128,
       "oA" : 0,
       "oAP" : "\/img\/home\/cover-front.png",
       "oF" : 0,
@@ -235,7 +235,7 @@
     },
     "\/img\/home\/gala-dali.jpg" : {
       "ft" : 16384,
-      "iS" : 184192,
+      "iS" : 139427,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/home\/gala-dali.jpg",
@@ -248,7 +248,7 @@
     },
     "\/img\/home\/index-banner.png" : {
       "ft" : 32768,
-      "iS" : 1254133,
+      "iS" : 767465,
       "oA" : 0,
       "oAP" : "\/img\/home\/index-banner.png",
       "oF" : 0,
@@ -261,7 +261,7 @@
     },
     "\/img\/home\/index-hero.png" : {
       "ft" : 32768,
-      "iS" : 2137932,
+      "iS" : 1153604,
       "oA" : 0,
       "oAP" : "\/img\/home\/index-hero.png",
       "oF" : 0,
@@ -274,7 +274,7 @@
     },
     "\/img\/home\/self-portrait.jpeg" : {
       "ft" : 16384,
-      "iS" : 348061,
+      "iS" : 244066,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/home\/self-portrait.jpg",
@@ -287,7 +287,7 @@
     },
     "\/img\/ray\/ray-banner.jpg" : {
       "ft" : 16384,
-      "iS" : 260194,
+      "iS" : 182944,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-banner.jpg",
@@ -300,7 +300,7 @@
     },
     "\/img\/ray\/ray-bio.jpg" : {
       "ft" : 16384,
-      "iS" : 174953,
+      "iS" : 135912,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-bio.jpg",
@@ -313,7 +313,7 @@
     },
     "\/img\/ray\/ray-gallery-1.jpg" : {
       "ft" : 16384,
-      "iS" : 145926,
+      "iS" : 107312,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-gallery-1.jpg",
@@ -326,7 +326,7 @@
     },
     "\/img\/ray\/ray-gallery-2.jpeg" : {
       "ft" : 16384,
-      "iS" : 26464,
+      "iS" : 25086,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-gallery-2.jpg",
@@ -339,7 +339,7 @@
     },
     "\/img\/ray\/ray-gallery-3.jpg" : {
       "ft" : 16384,
-      "iS" : 124913,
+      "iS" : 94442,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-gallery-3.jpg",
@@ -352,7 +352,7 @@
     },
     "\/img\/ray\/ray-gallery-4.jpg" : {
       "ft" : 16384,
-      "iS" : 123396,
+      "iS" : 84190,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-gallery-4.jpg",
@@ -365,7 +365,7 @@
     },
     "\/img\/ray\/ray-gallery-5.jpg" : {
       "ft" : 16384,
-      "iS" : 190877,
+      "iS" : 144308,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-gallery-5.jpg",
@@ -378,7 +378,7 @@
     },
     "\/img\/ray\/ray-gallery-6.jpg" : {
       "ft" : 16384,
-      "iS" : 139724,
+      "iS" : 102087,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-gallery-6.jpg",
@@ -391,7 +391,7 @@
     },
     "\/img\/ray\/ray-hero.jpeg" : {
       "ft" : 16384,
-      "iS" : 79391,
+      "iS" : 73377,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/img\/ray\/ray-hero.jpg",
